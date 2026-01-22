@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Smart</title>
     <style>
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -813,7 +811,8 @@ h1 {
     background: radial-gradient(ellipse at center, rgba(62, 39, 35, 0.95), transparent);
     border-radius: 50%;
 }
-/* Timer and controls */
+
+/* FIN DE LA PARTIE 1 */
 .timer-display {
     font-size: 3.5em;
     font-weight: bold;
@@ -1594,7 +1593,10 @@ h1 {
         justify-content: flex-end;
     }
 }
-</style>
+
+/* FIN DE LA PARTIE 2 */
+    </style>
+</head>
 <body>
     <!-- Progress Popup - Top Right -->
     <div class="progress-popup" id="progressPopup">
@@ -1978,7 +1980,7 @@ h1 {
 
     <script>
         // Le JavaScript sera dans la PARTIE 4
-    </script>
+    <script>
 const translations = {
     fr: {
         appTitle: "Work Smart",
@@ -2655,6 +2657,9 @@ function createTask() {
     renderTaskSections();
     updateProgressPopup();
 }
+
+// FIN DE LA PARTIE 4a
+// CONTINUEZ AVEC LA PARTIE 4b
 function updateTaskSelector() {
     const select = document.getElementById('taskSelect');
     const t = translations[currentLang];
@@ -3110,6 +3115,8 @@ console.log('✅ Work Smart App Loaded Successfully!');
 console.log('📊 Tasks:', tasks.length);
 console.log('📈 Sessions:', sessionHistory.length);
 
-</script>
+// FIN DE LA PARTIE 4b
+// VOTRE APPLICATION EST MAINTENANT COMPLÈTE !
+    </script>
 </body>
 </html>
